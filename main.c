@@ -34,7 +34,7 @@ void Surname(void)
   scanf("%s", name);                       // для символьного массива & не нужен
 
   if((name[0] >= 'P') && (name[0] <= 'S')) { printf("%s", message); }
-    else if((name[0] >= 'p') && (name[0] <= 's')) { printf("%s", message); }
+  else if((name[0] >= 'p') && (name[0] <= 's')) { printf("%s", message); }
   else { printf("The results of the preliminary test, You are admitted to the exam."); }
 
   printf("\n");
